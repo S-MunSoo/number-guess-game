@@ -1,0 +1,105 @@
+body {
+  background-size: 50%;
+  background-image: url(image/number.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "East Sea Dokdo", cursive;
+}
+.container {
+  width: 50%;
+  height: 80%;
+  font-size: 40px;
+  border: 20px solid #fff;
+  text-align: center;
+  border-radius: 50px;
+  background-color: rgba(247, 243, 242, 0.7);
+}
+.main-title {
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+}
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+.subtitle {
+  font-weight: bold;
+  color: green;
+}
+.img-updonw {
+  width: 1000 px;
+  height: 400px;
+}
+.list-chance {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 16px;
+}
+.form-control {
+  font-size: 25px;
+  font-style: italic;
+  height: 60px;
+  width: 400px;
+  text-align: center;
+  margin-left: 10px;
+}
+.button-style {
+  height: 70px;
+  width: 90px;
+  border-radius: 50px;
+  font-size: 25pt;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  background-color: green;
+}
+.button-reset {
+  height: 70px;
+  width: 100px;
+  border-radius: 30px;
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  background-color: gold;
+}
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .main-img {
+    width: 250px;
+  }
+  .form-control {
+    max-width: 280px;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .button-style {
+    font-size: 20px;
+    width: 80px;
+    margin-top: 30px;
+  }
+  .button-reset {
+    font-size: 18px;
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+  }
+}
