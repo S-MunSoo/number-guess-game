@@ -1,5 +1,9 @@
 # 숫자 맞추기 게임
 
+🎬 https://s-munsoo.github.io/number-guess-game/
+
+![스크린샷 2022-04-06 오후 5 40 07](https://user-images.githubusercontent.com/102017296/161933677-130caffa-2159-4184-88bb-89848a8afaea.png)
+
 - Up Down에서 영감을 받은 프로젝트입니다.
 
 ## 구현한 기능
